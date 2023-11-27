@@ -1,0 +1,97 @@
+.backgroundImage{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.backgroundImage img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.backgroundImageText{
+    color: rgba(255, 255, 255, 1);
+    z-index: 2;
+    text-align: left;
+}
+
+.main-theme{
+    background-image: url("/sources/img/Rectangle\ 18\ \(1\).png");
+    width: 100%;
+    height: 100vh;
+}
+
+.secondTheme{
+    background-image: url("/sources/img/Rectangle\ 18.png");
+}
+
+.thirdTheme{
+    background-image: url("/sources/img/Rectangle\ 19.png");
+}
+
+.fourTheme{
+    background-image: url("/sources/img/KhomutovskaStep02\ 3\ 1.png");
+}
+
+.main-text-container{
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1);
+}
+
+.left-bar{
+    grid-column: 1/2;
+}
+
+.text-container{
+    display: grid;
+    grid-column: 2/12;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6);
+}
+
+.text-container img{
+    width: 100%;
+}
+
+.right-bar{
+    grid-column: 12/13;
+}
+
+.waterProof {
+    justify-content: right;
+    align-items: center;
+}
+
+.waterBubble{
+    color: rgba(0, 0, 0, 1);
+}
+
+.main-aboutUs-container{
+    background-image: url("/sources/img/завод\ группа.png");
+}
+
+.aboutUs-top-text-container{
+    text-align: left;
+}
+
+.imageOne{
+    margin-right: 10rem;
+    text-align: right;
+    z-index: 2;
+}
+
+.imageTwo{
+    text-align: right;
+    z-index: 1;
+    /* z-index: 1; */
+}
