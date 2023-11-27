@@ -1,215 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="sources/styles/style.css">
-  <link rel="stylesheet" href="sources/styles/background-video.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="sources/files/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="sources/files/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="sources/files/icons/favicon-16x16.png">
-  <link rel="manifest" href="sources/files/icons/site.webmanifest">
-  <title>COAMBARRY</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Минеральная вода, вода, Новоазавская минеральная вода, купить минеральную воду, купить воду, купить новоазавскую минеральную воду, купить воду в Денецке и Луганске, купить минеральную воду в городе Донецк и Луганск, Новоазовский завод минеральных вод">
+    <meta name="description"
+        content="Живая вода родного края! Вода Новоазовская черпает свои свойства из недр земли, где она обогащается минеральными солями и приобретает исключительную чистоту.
+    «Новоазовская» добывается из артезианской скважины  глубиной 360 м и разливается непосредственно возле источника, что позволяет сохранить все ее природные и вкусовые свойства.
+    «Новоазовская» – минеральная природная столовая вода с низким уровнем минерализации и относится к типу гидрокарбонатных вод. Благодаря своему идеально сбалансированному составу минеральных солей и микроэлементов «Новоазовская» оптимально подходит для ежедневного употребления.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sources/styles/style.css">
+    <link rel="stylesheet" href="sources/styles/navigationStyle.css">
+    <link rel="stylesheet" href="sources/styles/backgroundImage.css">
+    <link rel="stylesheet" href="sources/styles/gridProductCardStyle.css">
+    <title>Главная</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="sources/img/logo-boken.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Pricing</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <section>
-    <div class="background-video">
-      <video src="sources/files/videos/Game_room.mp4" type="video/mp4" autoplay muted loop></video>
-      <div class="video-text">
-        <h1>Future's here!</h1>
-      </div>
-    </div>
-    <div class="container-lg">
-      <div class="row">
-        <div class="col-lg-1">
-          <div class="row">
-
-          </div>
-        </div>
-        <div class="col-lg-10 col-md-12 mt-3">
-          <div class="row">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                  aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                  aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                  aria-label="Slide 6"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="sources/img/logo.jpg" alt="" class="w-100">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, magnam nam voluptas eligendi
-                          nobis ullam commodi quia. Mollitia, dolore quasi.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, rem?</p>
-                      </div>
+    <header>
+        <div class="nav-bar">
+            <div class="drop">
+                <button class="nav-btn">&#9776;</button>
+                <div class="nav-list">
+                    <div class="mainPageButton">
+                        <button class="mainPage">Новоазавская</button>
                     </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="sources/img/6569950901.jpg" alt="" class="w-100">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, magnam nam voluptas eligendi
-                          nobis ullam commodi quia. Mollitia, dolore quasi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, iste. Illum hic sunt
-                          quidem rem.</p>
-                      </div>
+                    <div class="map">
+                        <a href="#"><img src="sources/img/bxs_map.png" alt="Геопозиция"></a>
                     </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="sources/img/6612827758.jpg" alt="" class="w-100">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, magnam nam voluptas eligendi
-                          nobis ullam commodi quia. Mollitia, dolore quasi.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam magnam accusamus
-                          inventore.</p>
-                      </div>
+                    <div class="info">
+                        <p>287600 , Донецкая народная республика, г. Новоазовская 50 лет СССР 1</p>
+                        <a href="/">ГЛАВНАЯ</a>
+                        <a href="aboutUs.html">О НАС</a>
+                        <a href="description.html">О ВОДЕ</a>
+                        <a href="vacancies.html">ВАКАНСИИ</a>
+                        <a href="contacts.html">КОНТАКТЫ</a>
                     </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="sources/img/6568161080.jpg" alt="" class="w-100">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, magnam nam voluptas eligendi
-                          nobis ullam commodi quia. Mollitia, dolore quasi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, iste. Illum hic sunt
-                          quidem rem.</p>
-                      </div>
+                    <div class="messangers">
+                        <a href="#"><img src="sources/img/viber.png" alt="Viber"></a> <br>
+                        <a href="#"><img src="sources/img/whatsapp.png" alt="WhatsApp"></a>
                     </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="sources/img/1000.jpg" alt="" class="w-100">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, magnam nam voluptas eligendi
-                          nobis ullam commodi quia. Mollitia, dolore quasi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, iste. Illum hic sunt
-                          quidem rem.</p>
-                      </div>
+                    <div class="numberOne">
+                        <p>Коммерческий отдел</p>
+                        <a href="#">+7 (949) 302 04 60</a>
                     </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <img src="sources/img/6637635302.jpg" alt="" class="w-100">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, magnam nam voluptas eligendi
-                          nobis ullam commodi quia. Mollitia, dolore quasi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, iste. Illum hic sunt
-                          quidem rem.</p>
-                      </div>
+                    <div class="numberTwo">
+                        <p>Отдел кадров</p>
+                        <a href="#">+7 (949) 378 74 98</a>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
-            <div class="col-lg-12 col-md-12 text-center mt-4">
-              <p>Can we help you?</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="backgroundImage">
+            <img src="sources/img/Rectangle 18 (0).png" alt="Фоновое изображение - Хомутовская степь">
+            <div class="backgroundImageText">
+                <h1>Живая вода родного края!</h1>
+                <p>Добывается из артезианского источника глубиной 350 метров</p>
             </div>
-            <div class="col-lg-12 col-md-12 text-center">
-              <img class="calling-phone" style="width: 2.5em;" src="sources/img/free-icon-phone-call-5585856.png"
-                alt="calling-phone-icon">
+        </div>
+        <div class="ivent-catalog">
+            <div class="catalogText">
+                <p>Каталог</p>
             </div>
-          </div>
+            <div class="orderButton">
+                <button>Заказать</button>
+            </div>
         </div>
-        <div class="col-lg-1 col-md-12">
-          <div class="row">
+        <div class="main-catalog-container">
+            <div class="container-catalog">
+                <div class="product-example">
+                    <a href="#"><img src="sources/img/0.5.png" alt="Питьевая вода объёмом 0.5 литров"></a>
+                </div>
+                <div class="product-example">
+                    <a href="#"><img src="sources/img/1.5.png" alt="Питьевая вода объёмом 1.5 литра"></a>
+                </div>
+                <div class="product-example">
+                    <a href="#"><img src="sources/img/2.png" alt="Питьевая вода объёмом 2 литра"></a>
+                </div>
+                <div class="product-example">
+                    <a href="#"><img src="sources/img/5.png" alt="Питьевая вода объёмом 5 литров"></a>
+                </div>
+                <div class="product-example">
+                    <a href="#"><img src="sources/img/19.png" alt="Питьевая вода объёмом 19 литров"></a>
+                </div>
+                <div class="product-example">
+                    <a href="#"><img src="sources/img/н 1.5.png" alt="Напиток безалкогольный объёмом 1.5 литра"></a>
+                </div>
+                <div class="product-example">
+                    <a href="#"><img src="sources/img/н 1.5 (1).png" alt="Напитки безалкогольные объёмом 2 литра"></a>
+                </div>
+            </div>
+    </section>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section>
+        <!-- <div class="backgroundImage"> -->
+        <!-- <img src="sources/img/Rectangle 18 (1).png" alt="Фоновое изображение - Хомутовская степь"> -->
+        <div class="main-theme">
+            <div class="main-text-container">
+                <div class="left-bar">
 
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 footer-info text-center">
-          <p>All Rights Reserved, 2023</p>
-        </div>
-        <div class="col-lg-4 col-md-12 footer-info text-center">
-          <p><a href="#">Contacts</a><br><a href="#">Jod</a><br><a href="#">Our Team</a></p>
-        </div>
-        <div class="col-lg-4 col-md-12 icon-images">
-          <a href="#"><img src="sources/img/free-icon-youtube-3670147.png" alt="youtube-icon"></a>
-          <a href="#"><img src="sources/img/free-icon-telegram-5968804.png" alt="telegram-icon"></a>
-          <a href="#"><img src="sources/img/free-icon-vk-145813.png" alt="vk-icon"></a>
-        </div>
-      </div>
-    </div>
-  </footer>
+                </div>
+                <div class="text-container">
+                    <div class="description">
+                        <h1>Живая вода родного края</h1>
+                        <p>Вода Новоазовская черпает свои свойства из недр земли, где она обогащается минеральными
+                            солями и
+                            приобретает исключительную чистоту.
+                            «Новоазовская» добывается из артезианской скважины глубиной 360 м и разливается
+                            непосредственно
+                            возле источника, что позволяет сохранить все ее природные и вкусовые свойства.
+                            «Новоазовская» – минеральная природная столовая вода с низким уровнем минерализации и
+                            относится к
+                            типу гидрокарбонатных вод. Благодаря своему идеально сбалансированному составу
+                            минеральных солей и
+                            микроэлементов «Новоазовская» оптимально подходит для ежедневного употребления.
+                        </p>
+                    </div>
+                    <div class="formula">
+                        <img src="sources/img/формула.png" alt="Формула расчёта">
+                    </div>
+                </div>
+                <div class="right-bar">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="main-theme thirdTheme">
+            <div class="main-whyNot-container">
+                <h1>Почему мы?</h1>
+                <div class="whyNot-container">
+                    <ul>
+                        <li>
+                            <img src="sources/img/material-symbols_water-pump.png" alt="Иконка водяной помпы">
+                            Добывается из артезианского источника глубиной 350 метров <br>
+                        </li>
+                        <li>
+                            Доставка во все районы Донецка и другие
+                            <img src="sources/img/carbon_delivery-truck.png" alt="Иконка грузовика"> <br>
+                        </li>
+                        <li>
+                            <img src="sources/img/ic_round-currency-exchange.png" alt="Иконка переработки отходов">
+                            Принимаем к обмену бутыли других доставок воды <br>
+                        </li>
+                        <li>
+                            Экономим ваше время, силы и деньги
+                            <img src="sources/img/fluent_savings-24-regular.png" alt="Иконка свиньи">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
