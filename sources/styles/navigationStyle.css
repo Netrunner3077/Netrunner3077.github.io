@@ -1,12 +1,23 @@
 .nav-list{
+    margin: 1em;
+    margin-bottom: 4em;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1);
     text-align: center;
+    align-items: center;
 }
 
 .mainPageButton{
     grid-column: 1/2;
+}
+
+.mainPage{
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgba(162, 224, 235, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0;
 }
 
 .map{
@@ -14,19 +25,38 @@
 }
 
 .info{
-    grid-column: 3/8;
+    grid-column: 3/10;
+}
+
+.info p{
+    font-size: 1em;
+}
+
+.info a{
+    font-size: 1.25em;
+    color: rgba(0, 0, 0, 1);
 }
 
 .messangers{
-    grid-column: 8/9;
+    grid-column: 10/11;
 }
 
+/* .messangers img{
+    width: 33%;
+} */
+
 .numberOne{
-    grid-column: 9/11;
+    font-size: 0.6em;
+    grid-column: 11/12;
 }
 
 .numberTwo{
-    grid-column: 11/13;
+    font-size: 0.6em;
+    grid-column: 12/13;
+}
+
+.numberOne a, .numberTwo a{
+    text-decoration: underline;
 }
 
 .nav-list a{
