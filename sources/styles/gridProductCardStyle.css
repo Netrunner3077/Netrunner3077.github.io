@@ -136,3 +136,65 @@ div.vacancies-card{
 div.vacancies-contact-card{
     text-align: center;
 }
+
+@media(max-width: 900px){
+    .container-catalog{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3);
+    }
+
+    .things-container{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1);
+    }
+
+    .things-container img{
+        width: 100%
+    };
+
+    .mini-water{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2);
+    }
+
+    .middle-water{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1);
+    }
+
+    .sweety-water{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2);
+    }
+}
+
+@media(max-width: 600px){
+    .container-catalog{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4);
+    }
+
+    .product-example{
+        margin-inline: 0;
+    }
+
+    .things-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2);
+    }
+
+    .mini-water{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3);
+    }
+
+    .middle-water{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2);
+    }
+
+    .sweety-water{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3);
+    }
+}
