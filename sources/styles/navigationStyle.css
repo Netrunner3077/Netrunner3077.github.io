@@ -171,4 +171,12 @@
         font-size: 0.8em;
         width: 100%;
     }
+
+    .description{
+        margin-top: 0em;
+    }
+
+    .description p{
+        font-size: 0.8em;
+    }
 }

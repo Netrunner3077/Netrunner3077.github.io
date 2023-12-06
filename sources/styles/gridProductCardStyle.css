@@ -272,4 +272,54 @@ div.vacancies-contact-card{
     .vacancies-contact-card{
         padding: 1em;
     }
+
+    .main-aboutUs-headline-container p {
+        padding-left: 0;
+        font-size: 1.5em;
+    }
+    
+    .aboutUs-top-text-container{
+        font-size: 2em;
+        text-align: left;
+        z-index: 1;
+        margin-top: 1em;
+        padding-left: 0;
+    }
+
+    .imageOne img{
+        width: 100%;
+    }
+    
+    .imageTwo img{
+        width: 60%;
+    }
+
+    .description h1{
+        font-size: 1.5em;
+    }
+
+    .secondDescription p{
+        font-size: 0.8em;
+    }
+    
+    .secondDescription{
+        margin-top: 0;
+    }
+
+    .left-vacancies-bar{
+        display: none;
+    }
+
+    .right-vacancies-bar{
+        display: none;
+    }
+
+    div.vacancies-card{
+        margin: 0;
+        padding: 0;
+    }
+
+    .vacancies-card-container img{
+        width: 50%;
+    }
 }
