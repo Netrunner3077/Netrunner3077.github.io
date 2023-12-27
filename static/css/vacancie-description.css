@@ -1,0 +1,113 @@
+.T1 {
+    align-items: center;
+}
+
+    .T1 h1 {
+        text-align: center;
+        font-size: 4.5em;
+        padding-top: 2em;
+        color: rgba(0, 64, 125, 1);
+    }
+
+.usloviaText {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.usloviaText2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.text-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2);
+    text-align: center;
+}
+
+.uslovia {
+    align-items: center;
+    font-size: 1.5em;
+}
+
+    .uslovia h3 {
+        text-align: center;
+        font-size: 1.25em;
+        padding-top: 4em;
+    }
+
+.T2 {
+    align-items: center;
+}
+
+    .T2 h4, h5 {
+        text-align: center;
+        font-size: 4em;
+    }
+
+    .T2 h4 {
+        padding-top: 2em;
+    }
+
+    .T2 h5 {
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+
+.volna1 {
+    height: 18vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    .volna1 img {
+        height: 18vh;
+        width: 100%;
+        position: absolute;
+        top: 3.5em;
+        left: 0;
+    }
+
+.volna1Text h2 {
+    padding-top: 4em;
+    align-items: center;
+    font-size: 2em;
+}
+
+.volna2 {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .volna2 img {
+        height: 20vh;
+        width: 100vw;
+        position: absolute;
+        top: 3em;
+        left: 0;
+    }
+
+.volna2Text h6 {
+    padding-top: 4em;
+    align-items: center;
+    font-size: 2em;
+}
+
+h3 {
+    white-space: pre;
+    text-align: center;
+}
+
+.backgroundImage, .backgroundImage img {
+    height: 60vh;
+}
