@@ -1,0 +1,56 @@
+{% extends 'layout.html' %}
+{% block linked %}<link rel="stylesheet" href="/static/css/vacancie-description.css">{% endblock %}
+{% block title %}{{ vacancie.tittle }}{% endblock %}
+
+{% block content %}
+<!--style="white-space: pre; необходим, чтобы сохранялся перенос строки, заданный админом в админке-->
+<section>
+    <div class="backgroundImage">
+        <img src="/static/images/backgrounds/работа не волк.svg" alt="Фоновое изображение - Хомутовская степь">
+    </div>
+</section>
+
+<div class="T1">
+    <h1>{{ vacancie.tittle }} в Новоазовске</h1>
+</div>
+<div class="uslovia">
+    <div class="volna1">
+        <img src="/static/images/backgrounds/Group 54.svg">
+        <div class="volna1Text">
+            <h2>Условия работы:</h2>
+        </div>
+    </div>
+
+
+    <div class="12345">
+        <h3 class="12345">{{ vacancie.working_conditions }}</h3>
+    </div>
+</div>
+<div class="uslovia">
+    <div class="volna2">
+        <img src="/static/images/backgrounds/Group 53.svg">
+        <div class="volna2Text">
+            <h6>Требования:</h6>
+        </div>
+    </div>
+    <div class="12345">
+        <h3 class="12345">{{ vacancie.requirements }}</h3>
+    </div>
+</div>
+<div class="uslovia">
+    <div class="volna1">
+        <img src="/static/images/backgrounds/Group 54.svg">
+        <div class="volna1Text">
+            <h2>Обязанности:</h2>
+        </div>
+    </div>
+    <div class="12345">
+        <h3 class="12345">{{ vacancie.duties }}</h3>
+    </div>
+</div>
+<div class="T2">
+    <h4>По вопросам работы:</h4>
+    <h5>+7 949 378 74 98</h5>
+</div>
+{% include 'form.html' %}
+{% endblock %}
